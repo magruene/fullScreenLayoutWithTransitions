@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="manageThatBetter">
+<head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fullscreen Layout with Page Transitions</title>
+    <meta name="description" content="Fullscreen Layout with Page Transitions"/>
+    <meta name="keywords"
+          content="fullscreen layout, boxes, responsive, page transitions, css transitions, jquery, portfolio, template"/>
+    <meta name="author" content="Codrops"/>
+    <link rel="shortcut icon" href="favicon.ico">
+    <link rel="stylesheet" type="text/css" href="node_modules/bootstrap/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" type="text/css" href="node_modules/select2/select2.css"/>
+    <link rel="stylesheet" type="text/css" href="public/css/component.css"/>
+    <link rel="stylesheet" type="text/css" href="public/css/fonts.css"/>
+    <link rel="stylesheet" type="text/css" href="public/css/menu-style.css"/>
+    <script src="node_modules/jquery/dist/jquery.min.js"></script>
+    <script src="node_modules/select2/select2.js"></script>
+    <script src="node_modules/angular/angular.min.js"></script>
+    <script src="node_modules/angular-route/angular-route.min.js"></script>
+    <script src="node_modules/angular-resource/angular-resource.min.js"></script>
+    <script src="node_modules/angular-ui-select2/src/select2.js"></script>
+    <script src="public/js/modernizr.custom.js"></script>
+    <script src="public/js/app.js"></script>
+    <script src="public/js/rest/restCommon.js"></script>
+    <script src="public/js/common/smartresource.js"></script>
+    <script src="public/js/common/config.js"></script>
+    <script src="public/js/common/routeConfig.js"></script>
+    <script src="public/js/directives/boxlayout.js"></script>
+    <script src="public/js/directives/menuDirective.js"></script>
+    <script src="public/js/controller/summoner/homeCtrl.js"></script>
+    <script src="public/js/controller/tasks/homeCtrl.js"></script>
+</head>
+<body>
+<div class="container">
+    <div id='cssmenu'>
+        <ul>
+            <li class='active'>
+                <a href='#' class="icon-home2"> Home  <menu></menu></a>
+
+            </li>
+            <li><a href='#'>Summoner</a>
+            </li>
+            <li><a href='#/test'>Test</a></li>
+        </ul>
+    </div>
+    <div id="bl-main" class="bl-main" box-layout="">
+        <section>
+            <div class="bl-box">
+                <h2 class="bl-icon bl-icon-about">Summoner</h2>
+            </div>
+            <div class="bl-content">
+                <div x-ng-include="'public/html/summoner/home.html'"></div>
+            </div>
+            <span class="icon-close link-on-hover"></span>
+        </section>
+        <section id="bl-work-section">
+            <div class="bl-box">
+                <h2 class="bl-icon bl-icon-works">Tasks</h2>
+            </div>
+            <div class="bl-content">
+                <div x-ng-include="'public/html/tasks/home.html'"></div>
+            </div>
+            <span class="icon-close link-on-hover"></span>
+        </section>
+        <section>
+            <div class="bl-box">
+                <h2 class="bl-icon bl-icon-blog">About</h2>
+            </div>
+            <div class="bl-content">
+                <!--<div x-ng-include="'public/html/about/home.html'"></div>-->
+            </div>
+            <span class="icon-close link-on-hover"></span>
+        </section>
+        <section>
+            <div class="bl-box">
+                <h2 class="bl-icon bl-icon-contact">Contact</h2>
+            </div>
+            <div class="bl-content">
+                <!--<div x-ng-include="'public/html/contact/home.html'"></div>-->
+            </div>
+            <span class="icon-close link-on-hover"></span>
+        </section>
+    </div>
+</div>
+
+<script type="text/javascript">
+    $('#cssmenu li.active').addClass('open').children('ul').show();
+    $('#cssmenu li.has-sub>a').on('click', function () {
+        $(this).removeAttr('href');
+        var element = $(this).parent('li');
+        if (element.hasClass('open')) {
+            element.removeClass('open');
+            element.find('li').removeClass('open');
+            element.find('ul').slideUp();
+        }
+        else {
+            element.addClass('open');
+            element.children('ul').slideDown();
+            element.siblings('li').children('ul').slideUp();
+            element.siblings('li').removeClass('open');
+            element.siblings('li').find('li').removeClass('open');
+            element.siblings('li').find('ul').slideUp();
+        }
+    });
+
+</script>
+<!-- /container -->
+</body>
+</html>

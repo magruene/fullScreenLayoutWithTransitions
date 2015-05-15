@@ -1,0 +1,61 @@
+<div ng-controller="SummonerHomeController">
+    <div ng-if="inCreateMode || inEditMode">
+        <div x-ng-include="'public/html/stories/newStory.html'"></div>
+    </div>
+    <div ng-if="!inCreateMode && !inEditMode">
+        <div class="row-fluid">
+            <div class="text-center">
+                <h1 class="page-header col-lg-6 col-lg-offset-3">
+                    Type the summoner name you're looking for
+                </h1>
+                <input type="text" class="input-lg input-summoner spacer-top" ng-model="input.summonerName">
+                <button style="margin-bottom: 7px;" class="btn btn-primary icon-arrow-right2 font-size-45"
+                        ng-click="searchBySummonerName()"/>
+            </div>
+        </div>
+        <div class="row-fluid">
+            <div class="spinner spacer-top" ng-if="loading">
+                <div class="rect1"></div>
+                <div class="rect2"></div>
+                <div class="rect3"></div>
+                <div class="rect4"></div>
+                <div class="rect5"></div>
+            </div>
+
+            <div ng-if="summoners" ng-class="summoners? 'fade-in one' : ''">
+                <div class="or-spacer" style="text-align: center">
+                    <div class="mask"></div>
+                    <span><i>Result</i></span>
+                </div>
+                <div class="container-accordion">
+                    <ul class="accordion">
+                        <li class="tabs" ng-repeat="summoner in summoners">
+                            <div class="social-links">
+                                <a class="icon-plus accordion-bg-{{$index + 1 % 5}}" href="http://twitter.com/renettarenula">Twitter</a>
+                            </div>
+                            <div class="paragraph">
+                                <h1>
+                                    <div class="row-fluid">
+                                        <image class="span1" src="http://avatar.leagueoflegends.com/euw/{{summoner.summoner.name}}.png"></image>
+                                        <span class="span11">{{summoner.summoner.name}} Lvl. {{summoner.summoner.summonerLevel}}</span>
+                                    </div>
+                                </h1>
+                                <p>
+                                    <ul id="tabs" >
+                                        <li ng-repeat="masterypage in summoner.masteries.pages">
+                                            <a href="#" ng-click="activateTab($index)" title="tab1">{{masterypage.name}}</a>
+                                        </li>
+                                    </ul>
+
+                                    <div id="content">
+                                        <div class="tabContents" ng-show="isActive" id="tab1" ng-repeat="masterypage in summoner.masteries.pages">One - content</div>
+                                    </div>
+                                </p>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

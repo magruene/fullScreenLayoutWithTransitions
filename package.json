@@ -1,0 +1,20 @@
+{
+  "name"         : "node-angular-fullscreen",
+  "version"      : "0.0.1",
+  "description"  : "Simple angular node thingy.",
+  "main"         : "server.js",
+  "author"       : "Marc",
+  "dependencies" : {
+    "express"    : "latest",
+    "morgan"	 : "latest",
+	"body-parser": "latest",
+	"method-override": "latest",
+	"angular": "latest",
+	"jquery": "latest",
+	"bootstrap": "latest",
+    "angular-ui-select2": "latest",
+    "select2": "latest",
+    "angular-route": "latest",
+    "angular-resource": "latest"
+    }
+}

@@ -1,37 +1,12 @@
 angular.module('manageThatBetter')
-    .controller("SummonerHomeController", function ($scope, $document, Summoner) {
+    .controller("SummonerHomeController", function ($scope, $document, Summoner, $mdUtil, $mdSidenav) {
 
         $scope.loading = false;
         $scope.input = {};
 
-        $scope.switchToCreateMode = function () {
-            $scope.inCreateMode = true;
-            $scope.newStory = {};
+        $scope.openLeftMenu = function () {
+            $mdSidenav('left').toggle();
         };
-
-        $scope.returnToHome = function () {
-            $scope.inCreateMode = false;
-            $scope.inEditMode = false;
-            $scope.newStory = {};
-        };
-
-        $scope.switchToEditMode = function (story) {
-            $scope.inEditMode = true;
-            $scope.newStory = story;
-        };
-
-        $scope.activateTab = function(index) {
-            $scope.removeClassFromAllContents();
-            var tabContent= $document[0].getElementById("tab" + index);
-            var wrappedElement = angular.element(tabContent);
-            wrappedElement.addClass("current");
-        }
-
-        $scope.removeClassFromAllContents = function () {
-            var tabContents= $document[0].document.getElementsByClassName("tabContents");
-            var wrappedElement = angular.element(tabContents);
-            tabContents.removeClass("current");
-        }
 
         $scope.searchBySummonerName = function () {
             $scope.loading = true;
@@ -42,4 +17,38 @@ angular.module('manageThatBetter')
                 console.log($scope.summoners);
             });
         }
-});
+
+        $scope.toggleLeft = buildToggler('left');
+        $scope.toggleRight = buildToggler('right');
+        /**
+         * Build handler to open/close a SideNav; when animation finishes
+         * report completion in console
+         */
+        function buildToggler(navID) {
+            var debounceFn =  $mdUtil.debounce(function(){
+                $mdSidenav(navID)
+                    .toggle()
+                    .then(function () {
+                        $log.debug("toggle " + navID + " is done");
+                    });
+            },300);
+            return debounceFn;
+        }
+    })
+
+    .controller('LeftCtrl', function ($scope, $timeout, $mdSidenav, $log) {
+        $scope.close = function () {
+            $mdSidenav('left').close()
+                .then(function () {
+                    $log.debug("close LEFT is done");
+                });
+        };
+    })
+    .controller('RightCtrl', function ($scope, $timeout, $mdSidenav, $log) {
+        $scope.close = function () {
+            $mdSidenav('right').close()
+                .then(function () {
+                    $log.debug("close RIGHT is done");
+                });
+        };
+    });

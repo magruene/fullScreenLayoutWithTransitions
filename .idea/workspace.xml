@@ -2,8 +2,572 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a9fe2da1-417c-4a5e-9962-0376fc16be33" name="Default" comment="I think i made some changes">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/rest/restCommon.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/svg/IE.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/svg/IcoMoon.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/controller/users/UserController.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/controller/users/UserService.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/controller/users/Users.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/svg/accessibility.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/svg/address-book.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/svg/aid-kit.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/svg/airplane.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/svg/alarm.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/svg/android.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/svg/angry.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/svg/angry2.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/svg/apple.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/svg/arrow-down-left.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/svg/arrow-down-left2.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/svg/arrow-down-right.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/svg/arrow-down-right2.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/svg/arrow-down.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/svg/arrow-down2.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/svg/arrow-left.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/svg/arrow-left2.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/svg/arrow-right.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/svg/arrow-right2.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/svg/arrow-up-left.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/svg/arrow-up-left2.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/svg/arrow-up-right.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/svg/arrow-up-right2.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/svg/arrow-up.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/svg/arrow-up2.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/svg/attachment.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/svg/avatar-1.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/svg/avatar-4.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/svg/avatars.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/svg/backward.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/svg/backward2.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/svg/baffled.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/svg/baffled2.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/svg/banknote.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/svg/barcode.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/svg/bell.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/svg/bin.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/svg/bin2.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/svg/binoculars.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/svg/blocked.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/svg/blog.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/svg/blogger.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/svg/blogger2.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/svg/bold.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/svg/book.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/svg/bookmark.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/svg/bookmarks.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/svg/books.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/svg/box-add.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/svg/box-remove.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/svg/briefcase.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/svg/brightness-contrast.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/svg/bubble.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/svg/bubble2.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/svg/bubble3.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/svg/bubbles.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/svg/bubbles2.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/svg/bubbles3.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/svg/bubbles4.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/svg/bug.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/svg/bulb.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/svg/bullhorn.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/svg/calculator.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/svg/calendar.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/svg/calendar2.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/svg/camera.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/svg/camera2.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/svg/cancel-circle.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/svg/cart.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/svg/checkbox-checked.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/svg/checkbox-unchecked.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/svg/checkmark.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/svg/checkmark2.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/svg/chrome.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/svg/circle-down.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/svg/circle-left.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/svg/circle-right.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/svg/circle-up.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/svg/clear-formatting.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/svg/clip.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/svg/clipboard.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/svg/clock.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/svg/clock2.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/svg/clock3.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/svg/cloud-check.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/svg/cloud-download.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/svg/cloud-upload.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/svg/cloud.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/svg/cloud2.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/svg/clubs.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/svg/codepen.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/svg/cog.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/svg/cogs.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/svg/coin-dollar.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/svg/coin-euro.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/svg/coin-pound.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/svg/coin-yen.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/svg/command.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/svg/compass.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/svg/compass2.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/svg/confused.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/svg/confused2.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/svg/connection.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/html/users/view/contactSheet.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/svg/contrast.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/svg/cool.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/svg/cool2.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/svg/copy.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/svg/credit-card.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/svg/crop.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/svg/cross.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/svg/crying.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/svg/crying2.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/svg/css3.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/svg/ctrl.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/svg/cup.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/svg/data.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/svg/database.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/svg/delicious.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/svg/deviantart.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/svg/deviantart2.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/svg/diamond.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/svg/diamonds.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/svg/dice.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/svg/display.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/svg/display2.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/svg/download.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/svg/download2.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/svg/download3.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/svg/drawer.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/svg/drawer2.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/svg/dribbble.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/svg/dribbble2.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/svg/dribbble3.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/svg/drive.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/svg/dropbox.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/svg/droplet.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/svg/earth.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/svg/eject.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/svg/ello.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/svg/embed.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/svg/embed2.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/svg/enlarge.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/svg/enlarge2.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/svg/enter.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/svg/envelop.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/svg/equalizer.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/svg/equalizer2.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/svg/evil.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/svg/evil2.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/svg/exit.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/svg/eye-blocked.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/svg/eye-minus.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/svg/eye-plus.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/svg/eye.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/svg/eye2.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/svg/eyedropper.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/svg/facebook.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/svg/facebook2.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/svg/facebook3.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/svg/feed.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/svg/feed2.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/svg/feed3.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/svg/feed4.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/svg/file-empty.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/svg/file-excel.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/svg/file-music.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/svg/file-openoffice.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/svg/file-pdf.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/svg/file-picture.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/svg/file-play.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/svg/file-text.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/svg/file-text2.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/svg/file-video.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/svg/file-word.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/svg/file-zip.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/svg/files-empty.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/svg/film.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/svg/filter.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/svg/finder.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/svg/fire.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/svg/fire2.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/svg/firefox.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/svg/first.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/svg/flag.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/svg/flattr.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/svg/flickr.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/svg/flickr2.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/svg/flickr3.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/svg/flickr4.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/svg/floppy-disk.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/svg/folder-download.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/svg/folder-minus.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/svg/folder-open.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/svg/folder-plus.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/svg/folder-upload.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/svg/folder.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/svg/font-size.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/svg/font.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/svg/food.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/svg/forrst.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/svg/forrst2.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/svg/forward.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/svg/forward2.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/svg/forward3.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/svg/foursquare.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/svg/frustrated.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/svg/frustrated2.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/svg/gift.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/svg/git.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/svg/github.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/svg/github2.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/svg/github3.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/svg/github4.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/svg/github5.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/svg/glass.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/svg/glass2.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/svg/google-drive.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/svg/google-plus.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/svg/google-plus2.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/svg/google-plus3.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/svg/google.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/svg/google_plus.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/svg/grin.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/svg/grin2.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/svg/hammer.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/svg/hammer2.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/svg/hangouts.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/svg/happy.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/svg/happy2.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/svg/headphones.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/svg/heart-broken.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/svg/heart.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/svg/heart2.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/svg/hipster.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/svg/hipster2.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/svg/history.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/svg/home.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/svg/home2.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/svg/home3.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/svg/hour-glass.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/svg/html5.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/svg/html52.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/svg/image.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/svg/images.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/svg/indent-decrease.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/svg/indent-increase.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/svg/infinite.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/svg/info.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/svg/insert-template.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/svg/instagram.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/svg/italic.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/svg/joomla.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/svg/key.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/svg/key2.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/svg/key3.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/svg/keyboard.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/svg/lab.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/svg/lab2.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/svg/lanyrd.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/svg/laptop.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/svg/last.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/svg/lastfm.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/svg/lastfm2.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/svg/leaf.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/svg/library.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/svg/libreoffice.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/svg/lifebuoy.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/svg/ligature.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/svg/ligature2.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/svg/like.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/svg/link.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/svg/linkedin.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/svg/linkedin2.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/svg/list-numbered.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/svg/list.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/svg/list2.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/svg/location.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/svg/location2.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/svg/location3.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/svg/lock.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/svg/lock2.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/svg/loop.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/svg/loop2.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/svg/ltr.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/svg/magic-wand.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/svg/magnet.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/svg/mail.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/svg/mail2.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/svg/mail3.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/svg/mail4.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/svg/mail5.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/svg/make-group.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/svg/man-woman.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/svg/man.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/svg/map.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/svg/map2.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/svg/megaphone.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/svg/menu.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/svg/menu2.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/svg/menu3.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/svg/menu4.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/svg/meter.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/svg/meter2.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/svg/mic.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/svg/minus.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/svg/mobile.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/svg/mobile2.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/svg/move-down.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/svg/move-up.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/svg/mug.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/svg/music.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/svg/music2.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/svg/neutral.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/svg/neutral2.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/svg/new-tab.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/svg/news.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/svg/newspaper.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/svg/next.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/svg/next2.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/svg/note.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/svg/notification.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/svg/office.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/svg/omega.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/svg/onedrive.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/svg/opera.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/svg/opt.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/svg/pacman.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/svg/page-break.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/svg/pagebreak.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/svg/paint-format.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/svg/paperplane.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/svg/paragraph-center.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/svg/paragraph-justify.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/svg/paragraph-left.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/svg/paragraph-right.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/svg/params.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/svg/paste.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/svg/pause.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/svg/pause2.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/svg/paypal.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/svg/paypal2.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/svg/paypal3.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/svg/pen.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/svg/pen2.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/svg/pencil.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/svg/pencil2.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/svg/phone-hang-up.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/svg/phone.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/svg/phone2.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/svg/photo.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/svg/picassa.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/svg/picassa2.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/svg/pie-chart.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/svg/pilcrow.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/svg/pinterest.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/svg/pinterest2.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/svg/play.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/svg/play2.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/svg/play3.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/svg/plus.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/svg/podcast.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/svg/point-down.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/svg/point-left.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/svg/point-right.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/svg/point-up.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/svg/power-cord.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/svg/power.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/svg/previous.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/svg/previous2.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/svg/price-tag.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/svg/price-tags.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/svg/printer.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/svg/profile.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/svg/pushpin.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/svg/qrcode.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/svg/question.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/svg/quill.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/svg/quotes-left.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/svg/quotes-right.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/svg/radio-checked.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/svg/radio-checked2.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/svg/radio-unchecked.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/svg/reddit.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/svg/redo.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/svg/redo2.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/svg/reply.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/svg/road.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/svg/rocket.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/svg/rtl.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/svg/sad.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/svg/sad2.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/svg/safari.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/svg/scissors.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/svg/search.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/svg/search2.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/svg/section.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/svg/settings.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/svg/share.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/svg/share2.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/svg/shield.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/svg/shift.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/svg/shocked.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/svg/shocked2.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/svg/shop.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/svg/shrink.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/svg/shrink2.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/svg/shuffle.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/svg/sigma.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/svg/skype.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/svg/sleepy.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/svg/sleepy2.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/svg/smile.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/svg/smile2.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/svg/sort-alpha-asc.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/svg/sort-alpha-desc.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/svg/sort-amount-asc.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/svg/sort-amount-desc.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/svg/sort-numberic-desc.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/svg/sort-numeric-asc.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/svg/sound.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/svg/soundcloud.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/svg/soundcloud2.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/svg/spades.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/svg/spell-check.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/svg/sphere.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/svg/spinner.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/svg/spinner10.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/svg/spinner11.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/svg/spinner2.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/svg/spinner3.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/svg/spinner4.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/svg/spinner5.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/svg/spinner6.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/svg/spinner7.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/svg/spinner8.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/svg/spinner9.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/svg/spoon-knife.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/svg/stack.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/svg/stack2.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/svg/stackoverflow.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/svg/star-empty.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/svg/star-full.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/svg/star-half.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/svg/star.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/svg/stats-bars.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/svg/stats-bars2.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/svg/stats-dots.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/svg/steam.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/svg/steam2.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/svg/stop.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/svg/stop2.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/svg/stopwatch.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/svg/strikethrough.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/svg/study.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/svg/stumbleupon.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/svg/stumbleupon2.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/svg/subscript.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/svg/subscript2.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/svg/sun.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/svg/superscript.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/svg/superscript2.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/svg/svg.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/svg/switch.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/svg/t-shirt.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/svg/tab.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/svg/table.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/svg/table2.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/svg/tablet.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/svg/tag.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/svg/target.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/svg/terminal.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/svg/text-color.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/svg/text-height.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/svg/text-width.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/svg/ticket.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/svg/tongue.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/svg/tongue2.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/svg/trash.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/svg/tree.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/svg/trophy.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/svg/truck.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/svg/truck2.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/svg/tumblr.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/svg/tumblr2.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/svg/tux.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/svg/tv.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/svg/tv2.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/svg/twitch.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/svg/twitter.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/svg/twitter2.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/svg/twitter3.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/svg/underline.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/svg/undo.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/svg/undo2.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/svg/ungroup.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/svg/unlocked.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/svg/upload.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/svg/upload2.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/svg/upload3.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/svg/user-check.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/svg/user-minus.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/svg/user-plus.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/svg/user-tie.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/svg/user.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/svg/user2.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/svg/users.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/svg/video-camera.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/svg/video.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/svg/vimeo.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/svg/vimeo2.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/svg/vimeo3.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/svg/volume-decrease.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/svg/volume-high.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/svg/volume-increase.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/svg/volume-low.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/svg/volume-medium.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/svg/volume-mute.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/svg/volume-mute2.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/svg/vynil.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/svg/wallet.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/svg/warning.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/svg/windows.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/svg/windows8.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/svg/wink.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/svg/wink2.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/svg/woman.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/svg/wondering.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/svg/wondering2.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/svg/wordpress.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/svg/wordpress2.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/svg/world.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/svg/wrench.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/svg/xing.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/svg/xing2.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/svg/yahoo.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/svg/yelp.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/svg/youtube.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/svg/youtube2.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/svg/youtube3.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/svg/youtube4.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/svg/zoom-in.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/svg/zoom-out.svg" />
+      <change type="DELETED" beforePath="C:\Users\Marc\IdeaProjects\fullScreenLayoutWithTransitions\models\employee.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Marc\IdeaProjects\fullScreenLayoutWithTransitions\models\role.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Marc\IdeaProjects\fullScreenLayoutWithTransitions\models\story.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Marc\IdeaProjects\fullScreenLayoutWithTransitions\models\task.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Marc\IdeaProjects\fullScreenLayoutWithTransitions\models\time.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Marc\IdeaProjects\fullScreenLayoutWithTransitions\public\js\controller\tasks\homeCtrl.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Marc\IdeaProjects\fullScreenLayoutWithTransitions\public\js\directives\boxlayout.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Marc\IdeaProjects\fullScreenLayoutWithTransitions\public\js\directives\menuDirective.js" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/app.js" afterPath="$PROJECT_DIR$/public/js/app.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/css/component.css" afterPath="$PROJECT_DIR$/public/css/component.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/fullScreenLayoutWithTransitions.iml" afterPath="$PROJECT_DIR$/fullScreenLayoutWithTransitions.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/html/summoner/home.html" afterPath="$PROJECT_DIR$/public/html/summoner/home.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/controller/summoner/homeCtrl.js" afterPath="$PROJECT_DIR$/public/js/controller/summoner/homeCtrl.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/index.html" afterPath="$PROJECT_DIR$/public/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="fullScreenLayoutWithTransitions.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -26,47 +590,41 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="smartresource.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/js/common/smartresource.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="8" column="58" selection-start-line="8" selection-start-column="58" selection-end-line="8" selection-end-column="58" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="component.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/public/css/component.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-16.48">
-              <caret line="865" column="8" selection-start-line="865" selection-start-column="8" selection-end-line="865" selection-end-column="8" />
-              <folding>
-                <element signature="e#14724#15257#2" expanded="true" />
-                <element signature="e#15629#16162#2" expanded="true" />
-                <element signature="e#16534#17067#2" expanded="true" />
-                <element signature="e#17439#17972#2" expanded="true" />
-                <element signature="e#18344#18877#2" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="fonts.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/css/fonts.css">
-          <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="799" column="10" selection-start-line="799" selection-start-column="1" selection-end-line="799" selection-end-column="10" />
+              <caret line="23" column="0" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="restCommon.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/js/rest/restCommon.js">
+      <file leaf-file-name="UserController.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/js/controller/users/UserController.js">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="9" column="29" selection-start-line="9" selection-start-column="29" selection-end-line="9" selection-end-column="29" />
+              <caret line="68" column="26" selection-start-line="68" selection-start-column="26" selection-end-line="68" selection-end-column="26" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="contactSheet.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/html/users/view/contactSheet.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-5.230769">
+              <caret line="8" column="30" selection-start-line="8" selection-start-column="30" selection-end-line="8" selection-end-column="30" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="UserService.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/js/controller/users/UserService.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="3" column="34" selection-start-line="3" selection-start-column="34" selection-end-line="3" selection-end-column="34" />
               <folding />
             </state>
           </provider>
@@ -76,28 +634,21 @@
         <entry file="file://$PROJECT_DIR$/public/js/app.js">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="2" column="83" selection-start-line="2" selection-start-column="83" selection-end-line="2" selection-end-column="83" />
+              <caret line="21" column="0" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="config.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/js/common/config.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="5" column="9" selection-start-line="5" selection-start-column="9" selection-end-line="5" selection-end-column="9" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/public/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-15.153846">
-              <caret line="106" column="0" selection-start-line="106" selection-start-column="0" selection-end-line="106" selection-end-column="0" />
-              <folding />
+            <state vertical-scroll-proportion="0.5500911">
+              <caret line="86" column="0" selection-start-line="86" selection-start-column="0" selection-end-line="86" selection-end-column="0" />
+              <folding>
+                <element signature="n#style#0;n#md-icon#0;n#md-button#0;n#div#0;n#md-content#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#md-tab#0;n#md-tabs#0;n#div#0;n#div#2;n#md-content#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -105,21 +656,30 @@
       <file leaf-file-name="home.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/public/html/summoner/home.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-11.884615">
-              <caret line="50" column="63" selection-start-line="50" selection-start-column="52" selection-end-line="50" selection-end-column="63" />
+            <state vertical-scroll-proportion="-2.1538463">
+              <caret line="23" column="17" selection-start-line="23" selection-start-column="17" selection-end-line="23" selection-end-column="17" />
               <folding>
-                <element signature="n#style#0;n#button#0;n#div#0;n#div#0;n#div#1;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#div#1;n#div#1;n#div#1;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#div#1;n#div#0;n#!!top" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="homeCtrl.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Users.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/js/controller/users/Users.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="homeCtrl.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/public/js/controller/summoner/homeCtrl.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.64415157">
-              <caret line="26" column="26" selection-start-line="26" selection-start-column="26" selection-end-line="26" selection-end-column="26" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="11" column="22" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
               <folding />
             </state>
           </provider>
@@ -145,8 +705,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/package.json" />
-        <option value="$PROJECT_DIR$/public/js/app.js" />
         <option value="$PROJECT_DIR$/server.js" />
         <option value="$PROJECT_DIR$/public/js/common/config.js" />
         <option value="$PROJECT_DIR$/public/html/tasks/home.html" />
@@ -154,10 +712,15 @@
         <option value="$PROJECT_DIR$/public/js/controller/tasks/homeCtrl.js" />
         <option value="$PROJECT_DIR$/public/css/fonts.css" />
         <option value="$PROJECT_DIR$/public/js/rest/restCommon.js" />
-        <option value="$PROJECT_DIR$/public/index.html" />
-        <option value="$PROJECT_DIR$/public/html/summoner/home.html" />
+        <option value="$PROJECT_DIR$/package.json" />
+        <option value="$PROJECT_DIR$/public/js/controller/sidebar/sideBarCtrl.js" />
+        <option value="$PROJECT_DIR$/public/js/controller/users/UserService.js" />
         <option value="$PROJECT_DIR$/public/css/component.css" />
+        <option value="$PROJECT_DIR$/public/js/controller/users/UserController.js" />
+        <option value="$PROJECT_DIR$/public/js/app.js" />
         <option value="$PROJECT_DIR$/public/js/controller/summoner/homeCtrl.js" />
+        <option value="$PROJECT_DIR$/public/html/summoner/home.html" />
+        <option value="$PROJECT_DIR$/public/index.html" />
       </list>
     </option>
   </component>
@@ -204,6 +767,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -272,33 +836,11 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="rest" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="fullScreenLayoutWithTransitions" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="fullScreenLayoutWithTransitions" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="public" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="js" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="controller" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="tasks" />
+              <option name="myItemId" value="users" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -342,11 +884,15 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="js" />
+              <option name="myItemId" value="html" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="common" />
+              <option name="myItemId" value="users" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="view" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -365,10 +911,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="html" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="tasks" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -391,24 +933,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="summoner" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="fullScreenLayoutWithTransitions" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="fullScreenLayoutWithTransitions" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="public" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="html" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -430,11 +954,32 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="fullScreenLayoutWithTransitions" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="fullScreenLayoutWithTransitions" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="public" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="assets" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="svg" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
       <pane id="Scope" />
       <pane id="PackagesPane" />
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -446,10 +991,30 @@
     <property name="FullScreen" value="false" />
     <property name="restartRequiresConfirmation" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="Node.Profiling.Tick.Path" value="" />
+    <property name="Node.Profiling.V8Profiler.Path" value="" />
+    <property name="Node.Profiling.Gnuplot.Path" value="" />
+    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Marc\IdeaProjects\fullScreenLayoutWithTransitions\public\html\summoner" />
+      <recent name="C:\Users\Marc\IdeaProjects\fullScreenLayoutWithTransitions\public\assets\svg" />
+      <recent name="C:\Users\Marc\IdeaProjects\fullScreenLayoutWithTransitions\public\html\users" />
+      <recent name="C:\Users\Marc\IdeaProjects\fullScreenLayoutWithTransitions\public\js\controller\users" />
+      <recent name="C:\Users\Marc\IdeaProjects\fullScreenLayoutWithTransitions\public" />
+    </key>
   </component>
   <component name="RunManager" selected="Node.js.server.js">
     <configuration default="false" name="server.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="C:/Program Files/nodejs/node" path-to-js-file="server.js" working-dir="$PROJECT_DIR$">
       <browser url="http://localhost:63342/fullScreenLayoutWithTransitions/public/index.html" />
+      <profiling log-folder="." record-internal="true">
+        <option name="gnuplotExecutable" value="" />
+        <option name="tickPackage" value="" />
+        <option name="v8ProfilerPackage" value="" />
+      </profiling>
       <method />
     </configuration>
     <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
@@ -645,6 +1210,11 @@
       <method />
     </configuration>
     <configuration default="true" type="NodeJSConfigurationType" factoryName="Node.js" working-dir="">
+      <profiling>
+        <option name="gnuplotExecutable" value="" />
+        <option name="tickPackage" value="" />
+        <option name="v8ProfilerPackage" value="" />
+      </profiling>
       <method />
     </configuration>
     <configuration default="true" type="NodeJSRemoteDebug" factoryName="Node.js Remote Debug">
@@ -702,12 +1272,6 @@
       <envs />
       <method />
     </configuration>
-    <configuration default="true" type="osgi.bnd.run" factoryName="Run Launcher">
-      <method />
-    </configuration>
-    <configuration default="true" type="osgi.bnd.run" factoryName="Test Launcher (JUnit)">
-      <method />
-    </configuration>
     <configuration default="false" name="server.js JavaScript" type="JavascriptDebugType" factoryName="JavaScript Debug" uri="http://localhost:63342/fullScreenLayoutWithTransitions/public/index.html">
       <method />
     </configuration>
@@ -737,6 +1301,8 @@
       <workItem from="1430562591161" duration="71000" />
       <workItem from="1430911193753" duration="53000" />
       <workItem from="1430917759049" duration="13825000" />
+      <workItem from="1432122323803" duration="12327000" />
+      <workItem from="1433682441651" duration="5691000" />
     </task>
     <task id="LOCAL-00001" summary="I think i made some changes">
       <created>1430041523354</created>
@@ -748,7 +1314,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="34919000" />
+    <option name="totallyTimeSpent" value="52937000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -761,12 +1327,11 @@
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32946146" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32850778" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32850778" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.18020834" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.18017058" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32946146" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -778,6 +1343,7 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32946146" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -807,30 +1373,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/public/js/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="2" column="83" selection-start-line="2" selection-start-column="83" selection-end-line="2" selection-end-column="83" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/js/common/config.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="5" column="73" selection-start-line="5" selection-start-column="73" selection-end-line="5" selection-end-column="73" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="21" column="63" selection-start-line="21" selection-start-column="63" selection-end-line="21" selection-end-column="63" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/package.json">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -844,8 +1386,7 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
           <folding>
-            <element signature="n#style#0;n#button#0;n#div#0;n#div#0;n#div#1;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#1;n#div#1;n#div#1;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#div#1;n#div#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -862,7 +1403,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -870,7 +1410,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -878,7 +1417,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="18" column="29" selection-start-line="18" selection-start-column="29" selection-end-line="18" selection-end-column="29" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -886,7 +1424,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="23" column="22" selection-start-line="23" selection-start-column="22" selection-end-line="23" selection-end-column="22" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -902,7 +1439,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="5" column="73" selection-start-line="5" selection-start-column="73" selection-end-line="5" selection-end-column="73" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -910,7 +1446,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="21" column="63" selection-start-line="21" selection-start-column="63" selection-end-line="21" selection-end-column="63" />
-          <folding />
+          <folding>
+            <element signature="n#style#0;n#md-icon#0;n#md-button#0;n#div#0;n#md-content#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#md-tab#0;n#md-tabs#0;n#div#0;n#div#2;n#md-content#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -927,8 +1466,7 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
           <folding>
-            <element signature="n#style#0;n#button#0;n#div#0;n#div#0;n#div#1;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#1;n#div#1;n#div#1;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#div#1;n#div#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -945,7 +1483,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -953,7 +1490,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -961,7 +1497,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="13" column="21" selection-start-line="13" selection-start-column="21" selection-end-line="13" selection-end-column="21" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -977,7 +1512,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="5" column="73" selection-start-line="5" selection-start-column="73" selection-end-line="5" selection-end-column="73" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -992,7 +1526,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="21" column="63" selection-start-line="21" selection-start-column="63" selection-end-line="21" selection-end-column="63" />
-          <folding />
+          <folding>
+            <element signature="n#style#0;n#md-icon#0;n#md-button#0;n#div#0;n#md-content#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#md-tab#0;n#md-tabs#0;n#div#0;n#div#2;n#md-content#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1009,8 +1546,7 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
           <folding>
-            <element signature="n#style#0;n#button#0;n#div#0;n#div#0;n#div#1;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#1;n#div#1;n#div#1;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#div#1;n#div#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1034,7 +1570,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="52" column="0" selection-start-line="52" selection-start-column="0" selection-end-line="52" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1049,7 +1584,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="8" column="44" selection-start-line="8" selection-start-column="44" selection-end-line="8" selection-end-column="44" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1065,7 +1599,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1073,7 +1606,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1081,14 +1613,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="5" column="30" selection-start-line="5" selection-start-column="30" selection-end-line="5" selection-end-column="30" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/js/controller/tasks/homeCtrl.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -1110,15 +1634,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="16" column="30" selection-start-line="16" selection-start-column="30" selection-end-line="16" selection-end-column="30" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1126,15 +1641,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="23" column="22" selection-start-line="23" selection-start-column="22" selection-end-line="23" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/js/controller/tasks/homeCtrl.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1142,7 +1648,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.64888126">
           <caret line="24" column="19" selection-start-line="24" selection-start-column="19" selection-end-line="24" selection-end-column="19" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1150,15 +1655,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="5" column="9" selection-start-line="5" selection-start-column="9" selection-end-line="5" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/js/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="2" column="83" selection-start-line="2" selection-start-column="83" selection-end-line="2" selection-end-column="83" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1166,7 +1662,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="799" column="10" selection-start-line="799" selection-start-column="1" selection-end-line="799" selection-end-column="10" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1174,7 +1669,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="8" column="58" selection-start-line="8" selection-start-column="58" selection-end-line="8" selection-end-column="58" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1182,50 +1676,188 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="9" column="29" selection-start-line="9" selection-start-column="29" selection-end-line="9" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="18" column="32" selection-start-line="18" selection-start-column="32" selection-end-line="18" selection-end-column="32" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/index.html">
+    <entry file="file://$PROJECT_DIR$/public/css/component.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-15.153846">
-          <caret line="106" column="0" selection-start-line="106" selection-start-column="0" selection-end-line="106" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="23" column="0" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/js/controller/users/Users.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/js/controller/users/UserService.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="3" column="34" selection-start-line="3" selection-start-column="34" selection-end-line="3" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/js/controller/users/UserController.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="68" column="26" selection-start-line="68" selection-start-column="26" selection-end-line="68" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/js/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="21" column="0" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/html/users/view/contactSheet.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-5.230769">
+          <caret line="8" column="30" selection-start-line="8" selection-start-column="30" selection-end-line="8" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/assets/svg/accessibility.svg">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/js/controller/summoner/homeCtrl.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="11" column="22" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/public/html/summoner/home.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-11.884615">
-          <caret line="50" column="63" selection-start-line="50" selection-start-column="52" selection-end-line="50" selection-end-column="63" />
+        <state vertical-scroll-proportion="-2.1538463">
+          <caret line="23" column="17" selection-start-line="23" selection-start-column="17" selection-end-line="23" selection-end-column="17" />
           <folding>
-            <element signature="n#style#0;n#button#0;n#div#0;n#div#0;n#div#1;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#1;n#div#1;n#div#1;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#div#1;n#div#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/css/component.css">
+    <entry file="file://$PROJECT_DIR$/public/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-16.48">
-          <caret line="865" column="8" selection-start-line="865" selection-start-column="8" selection-end-line="865" selection-end-column="8" />
+        <state vertical-scroll-proportion="0.5500911">
+          <caret line="86" column="0" selection-start-line="86" selection-start-column="0" selection-end-line="86" selection-end-column="0" />
           <folding>
-            <element signature="e#14724#15257#2" expanded="true" />
-            <element signature="e#15629#16162#2" expanded="true" />
-            <element signature="e#16534#17067#2" expanded="true" />
-            <element signature="e#17439#17972#2" expanded="true" />
-            <element signature="e#18344#18877#2" expanded="true" />
+            <element signature="n#style#0;n#md-icon#0;n#md-button#0;n#div#0;n#md-content#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#md-tab#0;n#md-tabs#0;n#div#0;n#div#2;n#md-content#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/js/controller/summoner/homeCtrl.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.64415157">
-          <caret line="26" column="26" selection-start-line="26" selection-start-column="26" selection-end-line="26" selection-end-column="26" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>fullScreenLayoutWithTransitions</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>fullScreenLayoutWithTransitions node_modules</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
   </component>
 </project>

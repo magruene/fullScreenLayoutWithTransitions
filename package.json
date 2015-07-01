@@ -15,6 +15,7 @@
     "angular-ui-select2": "latest",
     "select2": "latest",
     "angular-route": "latest",
-    "angular-resource": "latest"
+    "angular-resource": "latest",
+    "angular-material": "latest"
     }
 }

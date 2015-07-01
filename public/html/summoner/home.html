@@ -14,13 +14,7 @@
             </div>
         </div>
         <div class="row-fluid">
-            <div class="spinner spacer-top" ng-if="loading">
-                <div class="rect1"></div>
-                <div class="rect2"></div>
-                <div class="rect3"></div>
-                <div class="rect4"></div>
-                <div class="rect5"></div>
-            </div>
+            <md-progress-linear ng-if="loading" md-mode="indeterminate"></md-progress-linear>
 
             <div ng-if="summoners" ng-class="summoners? 'fade-in one' : ''">
                 <div class="or-spacer" style="text-align: center">
@@ -41,15 +35,7 @@
                                     </div>
                                 </h1>
                                 <p>
-                                    <ul id="tabs" >
-                                        <li ng-repeat="masterypage in summoner.masteries.pages">
-                                            <a href="#" ng-click="activateTab($index)" title="tab1">{{masterypage.name}}</a>
-                                        </li>
-                                    </ul>
 
-                                    <div id="content">
-                                        <div class="tabContents" ng-show="isActive" id="tab1" ng-repeat="masterypage in summoner.masteries.pages">One - content</div>
-                                    </div>
                                 </p>
                             </div>
                         </li>
